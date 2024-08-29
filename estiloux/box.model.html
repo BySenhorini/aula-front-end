@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Box Model</title>
+    <style> *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+    }
+        body{
+            background-color: white;
+            display: flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: row;
+
+        }
+        article{
+            width: 180px;
+            height: 180px;
+            margin-top: 20px;
+            margin-left: 20px;
+            padding: 15px;
+            border: 1px dashed black;
+            border-radius: 10px;
+            background-color: rgb(179, 241, 245)
+           
+            
+        }
+        article img{
+            width:40px;
+        }
+
+        article h1{
+            font-size: 20px;
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            text-transform: lowercase;
+        }
+        article p{
+            font-family: initial;
+            font-size: 20px;
+
+        }
+        .caixa-azul{
+            background-color: aliceblue;
+            color: black;
+        }
+     
+</style>
+</head>
+<body>
+    <article>
+        <img src="./imagens/Lightning Bolt (1).svg" alt="imagem de um raio">
+        <h1>Web Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </article>
+    <article class="caixa-azul">
+        <img src="./imagens/Share.png" alt="imagem de um compartilhar">
+        <h1>Graphics Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </article>
+    <article>
+        <img src="./imagens/Opened Folder.png" alt="imagem de uma pasta">
+        <h1>UI/UX Design</h1>
+        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit.</p>
+    </article>
+
+       
+
+    
+</body>
+</html>
